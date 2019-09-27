@@ -8,11 +8,11 @@ pinguim.andar = function() {
     console.log("andou")
 }
 
-pinguim.podeVoar = true
+pinguim.podeVoar = false
 
 pinguim.voar = function() {
-    if (this.podeVoar==true) {
-        console.log(this.podeVoar)
+    if (this.podeVoar) {
+        console.log('Voou')
     } else {
         console.log("O Dengo não voa!")
     }
